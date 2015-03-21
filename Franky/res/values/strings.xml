@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BDSIRActivity!</string>
+    <string name="app_name">Franky</string>
+    <string name="Titolo">Franky</string>
+    
+    
+   <string name="categorie">Scegli una Categoria</string>
+    <string-array name="categorie_array">
+        <item>Accessori e Altro</item>
+        <item>Animali</item>
+        <item >Arte e Cultura</item>
+        <item >Auto e Trasporti</item>
+        <item>Bevande</item>
+        <item>Casa</item>
+        <item>Cibo</item>
+        <item>Computer</item>
+        <item>Elettronica</item>
+        <item>Giardino</item>
+        <item >Musica</item>
+        <item >Libri, Giornali e Riviste</item>
+       	<item >Salute</item>
+  		<item >Sport</item>
+        <item>Svago</item>
+        <item >Vestiti</item>
+    </string-array>
+
+</resources>

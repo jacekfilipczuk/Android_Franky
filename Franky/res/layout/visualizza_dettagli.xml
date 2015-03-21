@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.60" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.60"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/indirizzo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" Indirizzo:via C.Battisti n.7"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/nomelocale"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" Locale"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/categoria"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" Bevande"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/nomeprodotto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" Cola-Super"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/votanti"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" Numero Votanti 20"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/media"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" Media Voto 4,5"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/home"
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
+                    android:text="Home" />
+            </RadioGroup>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
